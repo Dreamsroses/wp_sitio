@@ -1,5 +1,77 @@
 /*
-	Theme name: Sitio
-	Author: Rosa Morales R
-	Version: 1.0
+Theme Name: Effect Shot D Theme
+Author: Rosa Morales R.
+Author URI: http://www.effect-shot.cl
+Version: 1.0
 */
+body{
+  overflow-x: hidden;
+}
+.logo__navbar{
+  max-width: auto;
+  max-height: 10vw;
+}
+.img__header--jumbotron{
+  background-image: url(../images/background_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.titulo__header--jumbotron{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  background-color: grey;
+}
+.titular__nosotros{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+}
+.subtitulo__nosotros{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: justify;
+}
+.titular__servicios{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+}
+.titular__contactanos{
+ text-align: center;
+}
+.titular__siguenos{
+  text-align: center;
+}
+.fa-facebook-f{
+  color: #3b5998;
+}
+.fa-twitter{
+  color:  #1DA1F2;
+}
+.fa-instagram{
+  color:  #000000;
+}
+.titular__servicios{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+}
+
+/* Sección Contacto */
+
+label {
+  width: 200px;
+  display: block;
+}
+input, textarea {
+  height: 100px;
+  width: 500px;
+  margin: 5px 0;
+  border: 2px solid #CCC;
+}
+@media only screen and (max-width: 700px){
+input, textarea {
+        width: 100%;
+}
+}
+
+
